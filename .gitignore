@@ -1,0 +1,6 @@
+# vim
+*.swp
+
+# jupyter notebook
+.ipynb_checkpoints
+
