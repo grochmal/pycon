@@ -1,0 +1,30 @@
+# Modified xkcd style
+# place in ~/.config/matplotlib/stylelib/ and use as plt.use.style('myxkcd')
+
+#font.family: fantasy  # Contains Humor Sans by default, but poor with LaTeX
+font.family: sans-serif
+font.fantasy: ['xkcd', 'Humor Sans', 'Comic Sans MS', 'fantasy']
+# only if we want to use font.family and then LateX on top
+#text.usetex: False
+#mathtext.default: cal
+#mathtext.fontset: cm
+#mathtext.fallback_to_cm: True
+#text.latex.unicode : False
+font.size: 14.0
+# scale, length, randomness
+path.sketch: 1, 100, 2
+# needs to be done manually, that said it is often too expesive
+#from matplotlib import patheffects
+#path.effects: [patheffects.withStroke(linewidth=4, foreground="w")]
+axes.linewidth: 1.5
+lines.linewidth: 2.0
+figure.facecolor: white
+grid.linewidth: 0.0
+axes.grid: False
+axes.unicode_minus: False
+axes.edgecolor: black
+xtick.major.size: 8
+xtick.major.width: 3
+ytick.major.size: 8
+ytick.major.width: 3
+
